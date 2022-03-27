@@ -1,0 +1,48 @@
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.add-task-input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #aaa;
+}
+.select-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-des {
+  height: 150px;
+  width: 99%;
+}
+
+.input-time {
+  width: 100%;
+}
+
+.submit-btn {
+  color: #fff;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+}
+
+.submit-btn:hover {
+  background-color: rgb(4, 192, 4);
+}
+
+@media screen and (max-width: 880px) {
+  .select-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-time {
+    width: 100%;
+  }
+}
